@@ -1,8 +1,8 @@
 
 jQuery(document).ready(function($) {
 
-	var bgImage = $('.bg-image'),
-		dude = $('.dude'),
+	var bgImage = $('#bg-image'),
+		dude = $('#dude'),
 		scrollLine = $('.scroll-line'),
 		scrollDown = $('.scrolldown'),
 		titleMain = $('.title-main')
@@ -57,12 +57,12 @@ jQuery(document).ready(function($) {
 
 	var tweenAnimIn = new TimelineMax()
 		tweenAnimIn
-		.from('.laptop', 2, {y:-600, autoAlpha:0, ease:Power2.easeout})
-		.from('.coffee', 2, {x:600, autoAlpha:0, ease:Power2.easeout}, "-=1")
-		.from('.desk-plant', 1.5, {x:-600, autoAlpha:0, ease:Power2.easeout}, "-=1")
-		.from('.smartphone', 1.5, {x:600, autoAlpha:0, ease:Power2.easeout}, "-=2")
-		.from('.papers', 2, {y:-600, autoAlpha:0, ease:Power2.easeout}, "-=1")
-		.from('.working-headline', 1, {autoAlpha:0, ease:Power2.easeout})
+		.from('#laptop', 2, {y:-600, autoAlpha:0, ease:Power2.easeout})
+		.from('#coffee', 3, {x:600, autoAlpha:0, ease:Power2.easeout}, "-=1")
+		.from('#desk-plant', 4, {x:-600, autoAlpha:0, ease:Power2.easeout}, "-=1")
+		.from('#smartphone', 5, {x:600, autoAlpha:0, ease:Power2.easeout}, "-=2")
+		.from('#papers', 6, {y:-600, autoAlpha:0, ease:Power2.easeout}, "-=1")
+		.from('#working-headline', 1, {autoAlpha:0, ease:Power2.easeout})
 
 	// build scene
 
