@@ -4,7 +4,7 @@
     position: relative;
 }
 
-.title-main {
+#title-main {
     z-index: 5;
     position: fixed;
     top: 50%;
@@ -48,14 +48,14 @@
     transform: translateY(-50%);
 }
 
-.scroll-line {
+#scroll-line {
     height: 80px;
     border-left: #333 dashed 1px;
     position: relative;
     left: 50%;
 }
 
-.scroll-line h6 {
+#scroll-line h6 {
     position: relative;
     display: inline-block;
     transform: translateX(-50%) rotate(90deg);
